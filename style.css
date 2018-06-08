@@ -1,0 +1,113 @@
+.body{
+    
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    background-color: darkviolet;
+    padding: 0px 30px 0px 20px;
+    height: 80px;
+    
+    
+}
+
+
+.navbar-brand h3 {
+    color: whitesmoke;
+}
+
+
+.nav-link h6{
+ color: whitesmoke;
+ padding: 30px 3px 0 3px;   
+    
+    
+}
+
+
+#Search{
+   border-color: whitesmoke;
+    padding: 5px 10px 2px 10px;
+    
+    
+}
+#Search h6{
+   color: whitesmoke;
+    
+    
+}
+
+#home{
+    
+    width: 100%;
+    
+}
+
+#hero {
+    
+    background-image: url(5.Smart_Medical_card.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+    height: 600px;
+    border-radius: 0px;
+}
+
+#hero h1{
+    
+    color: whitesmoke;
+}
+
+#hero p{
+    
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+#Demo-button {
+   
+    margin: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    border-color: darkviolet;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px darkviolet;
+    
+    
+}
+
+#Demo-button:hover {
+    background-color: darkviolet;
+    margin: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    border-color: darkviolet;
+     box-shadow: 2px 2px 2px darkviolet;
+}
+
+#Demo-button h6 {
+    color: darkviolet;
+    text-align: center;
+    padding: 8px 4px 2px 4px;
+    font-weight: 300 bold;
+   
+    
+}
+
+#Demo-button h6:hover {
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 4px 2px 4px;
+    font-weight: 300 bold;
+   
+    
+}
+
+#Grid {
+    height: 600px;
+}
+
+.col-sm-4 {
+    border-color: black;
+    border-style: solid;
+        
+}

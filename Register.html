@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div>
+            <h1>Register</h1>
+
+            <a href="index.html">
+                <h4>Home</h4>
+            </a>
+        </div>
+        
+        <div>
+            <form method="get">
+
+                <strong>First Name:</strong> <input type="text" name="FirstName" required><br><br>
+                <strong>Last Name:</strong> <input type="text" name="LastName" required><br><br>
+                <strong>Email:</strong> <input type="email" name="email" required><br><br>
+                <strong>Mobile:</strong> <input type="number" name="mobile" required><br><br>
+                <strong>Birthday:</strong><input type="date" name="birthday"><br><br>
+
+                <strong>Gender:</strong><br><br>
+                <input type="radio" name="Gender" value="Male">Male<br>
+                <input type="radio" name="Gender" value="Female">Female<br><br>
+
+                <strong>Other Information:</strong><br><br>
+                <input type="checkbox" name="Single" value="Single">Single<br><br>
+
+
+                <strong>Employment Status:</strong>
+                <select name="Employment_Status" id="">
+                        <option value="Employed" name="employed">Employed</option>
+                        <option value="Unemployed" name="unemployed">Unemployed</option>
+                    </select><br><br><br>
+
+                <strong>User Name:</strong><input type="text" name="username" required><br><br>
+                <strong>Password:</strong><input type="password" min="8" name="password" required><br><br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+                
+            </form>
+        </div>
+    </body>
+</html>
+
